@@ -1,0 +1,252 @@
+@media (max-width: 950px) {
+    section {
+        height: 1450px;
+    }
+
+}
+@media (max-width: 650px) {
+
+    .active--list {
+        width: 100%;
+        background: black;
+        padding: 100vh 300px;
+        transform: scale(1);
+        
+    }
+    
+    .active--list:hover {
+        transform: scale(1);
+    }
+    
+    .content-hiddenn {
+        display: none;
+    }
+    
+    .content-hidden {
+        background: white;
+        position: fixed;
+        top: 25%;
+        justify-content: center;
+        width: 25%;
+        align-items: center;
+        height: 5%;
+        color: white;
+        display: flex;
+        z-index: 50;
+    }
+
+    .navegation {
+        transition: all 0.3s ease-in-out;
+        display: none;
+        position: fixed;
+        width: 100%;
+        justify-content: center;;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+        padding: 8vh;
+        background: black;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 26px;
+        padding-top: 0px;
+        transition: all 0.3s ease-in-out;
+    } 
+
+    .content .links {
+        padding-top: 30px;
+        display: flex;
+        font-weight: 500;
+        gap: 20px; 
+        flex-direction: column;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .active {
+        display: flex;
+        background: rgba(0, 0, 0, 0.98);
+    }
+
+    .links--footer {
+        margin-top: 50px;
+        
+        font-size: 14px;
+        position: relative;
+        gap: 8%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #copyright {
+        font-size: 12px;
+        top: 18em;
+    }
+    
+
+    .toggle {
+        opacity: 1;
+    }
+
+    
+    .btn {
+        background: rgba(0, 0, 0, 0);
+    }
+
+
+    .center--container .title img {
+        width: 50px;
+    }
+
+    .center--container .title {
+        font-size: 16px;
+
+    }
+
+    .container--content {
+        font-size: 18px;
+        
+    }
+
+    section {
+        height: 900px;
+        margin-top: 15em;
+    }
+    
+    .section--content h2 {
+        font-size: 30px;
+    }
+
+    .sobre-o-site p {
+        text-align: center;
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .sobre-o-site h3 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .sobre-o-site ul {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .objetivos-do-site p {
+        text-align: center;
+        font-size: 18px;
+        width: 50%;
+    }
+
+    .links img {
+        width: 15vw;
+        
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    header {
+        height: 500px;
+    }
+
+    .container {
+        margin-top: 0px;
+    }
+
+    .container .title {
+        font-size: 10px;
+    }
+
+    .container .title img {
+        width: 30px;
+    }
+
+    .container--content {
+        font-size: 14px;
+        color: #858585;
+        text-align: center;
+    }
+
+    section {
+        height: 700px;
+        margin-top: 8em;
+    }
+
+    .section--content h2 {
+        font-size: 26px;
+    }
+
+    .section--content h3 {
+        font-size: 16px;
+    }
+
+    .sobre-o-site p {
+        font-size: 14px;
+    }
+
+    .section--content ul {
+        font-size: 16px;
+    }
+
+    .objetivos-do-site h2 {
+        font-size: 24px;
+    }
+
+    .objetivos-do-site p {
+        font-size: 14px;
+    }
+
+    .links div {
+        font-size: 12px;
+    }
+
+    .links--footer {
+        margin-top: 50px;
+        
+        font-size: 10px;
+        position: relative;
+        gap: 6%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #copyright {
+        font-size: 10px;
+        top: 16em;
+    }
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .center--content #credits {
+        color: #000;
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        background: #14FF00;
+        padding: 6px 16px;
+        transition: all 200ms ease;
+    }
+
+    .container .title {
+        font-size: 9px;
+    }
+
+    .container .title img {
+        width: 25px;
+    }
+}
